@@ -55,7 +55,7 @@ p {
 }
 
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.867), rgba(255, 255, 255, 0.650)),url(../images/vpn.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.867), rgba(255, 255, 255, 0.650)),url(../images/vpnBackground.jpg);
   opacity: 1;
   background-repeat: no-repeat;
   background-attachment: fixed;
