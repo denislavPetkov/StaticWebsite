@@ -10,7 +10,7 @@
   }
   
   /* Style the links inside the navigation bar */
-  .topnav navbar {
+  .navbar {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -20,13 +20,14 @@
   }
   
   /* Change the color of links on hover */
-  .topnav navbar:hover {
+  .navbar:hover {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
   }
   
   /* Add a color to the active/current link */
-  .topnav navbar.active {
+  .navbar.active {
     background-color: #0473aa;
     color: white;
   }
@@ -76,4 +77,26 @@ li {
 
 ul {
   list-style-type:square;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#vpnTypes {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  height: 800px;
+}
+
+#vpnTypes tr td:nth-child(even), #vpnTypes tr th:nth-child(even){
+  background-color: #5da3c6;
+}
+
+#vpnTypes tr td:nth-child(odd), #vpnTypes tr th:nth-child(odd){
+  background-color: #358db8;
 }
